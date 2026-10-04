@@ -50,7 +50,6 @@ An integrated IoT smart-home automation and multi-zone physical security platfor
 
 ## 📐 System Architecture
 
-```mermaid
 flowchart TD
     subgraph Cloud & User Interface
         A["📱 Smartphone (Blynk Cloud IoT)"]
