@@ -49,7 +49,7 @@ An integrated IoT smart-home automation and multi-zone physical security platfor
 ---
 
 ## 📐 System Architecture
-
+```mermaid
 flowchart TD
     subgraph Cloud & User Interface
         A["📱 Smartphone (Blynk Cloud IoT)"]
@@ -80,7 +80,7 @@ flowchart TD
     C <-->|"SPI Bus"| G
     C -->|"I2C / Parallel Data"| H
     C --> I
-
+```
 ---
 
 ## 🛠️ Hardware Bill of Materials (BOM)
